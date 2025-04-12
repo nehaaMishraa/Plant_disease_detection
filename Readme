@@ -1,0 +1,25 @@
+A machine learning-based web application designed to help farmers and agricultural specialists detect plant diseases early through image recognition. This system uses Convolutional Neural Networks (CNNs) combined with transfer learning to accurately identify various crop diseases from leaf images, promoting sustainable and efficient farming practices.
+Problem Statement:
+Plant diseases cause 20-40% of annual global crop losses, especially affecting small-scale farmers who lack access to timely and accurate diagnosis. Manual inspection is slow, expertise-dependent, and error-prone, often leading to excessive pesticide use or significant crop damage.
+My project provides a scalable, AI-driven solution to detect plant diseases early using leaf images, reducing chemical overuse and improving food security.
+
+Solution Overview:
+Image-based disease detection using deep learning.
+Powered by Convolutional Neural Networks (CNNs) for high prediction accuracy.
+Promotes sustainable agriculture by enabling early intervention and reducing pesticide misuse.
+Designed to be accessible via an intuitive web interface using Streamlit.
+
+Tech Stack:
+Python:	Core programming language
+TensorFlow / Keras:	Deep learning framework
+CNN (Transfer Learning):	Image classification & prediction
+Streamlit	: Web-based frontend for users
+
+Clone this repository:
+git clone https://github.com/nehaaMishraa/Plant_disease_detection.git
+cd Plant_disease_detection
+ Install required dependencies:
+pip install -r requirements.txt
+Run the Streamlit app:
+streamlit run app.py
+Upload a plant leaf image and get instant disease prediction with confidence score!
